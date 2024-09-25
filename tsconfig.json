@@ -1,6 +1,10 @@
 {
     "compilerOptions": {
       "allowSyntheticDefaultImports": true,
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"]
+      },
       "esModuleInterop": true,
       "outDir": "./dist/",
      "sourceMap": true,
